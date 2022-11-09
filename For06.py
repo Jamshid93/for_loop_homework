@@ -7,9 +7,9 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    s=[]
+    s=0
     for i in range(A,B):
-        s.append(i)
+        s+=i
 
-    return sum(s)
+    return s
 print(main(3,6))
