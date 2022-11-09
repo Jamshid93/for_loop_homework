@@ -7,4 +7,10 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    s=[]
+    for i in range(n):
+        i=k
+        s.append(i)
+
+    return s
+print(main(-1,4))
